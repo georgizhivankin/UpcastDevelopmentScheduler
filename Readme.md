@@ -20,7 +20,7 @@ php -f UpcastDevelopmentScheduler.php 2014-05-01 file_for_2014.csv 12
 - The second argument `file_for_2014.csv` is the file name of the file where the export would be saved to. You can use any combination of [A-Z][0-9] characters for the file name, but make sure to finish it up in .csv in order to make sure that you would be able to open it afterwards. If you do not provide a file name, the default one is `YYmmdd_Upcast_Monthly_Schedule.csv`
 - The final argument `12` allows you to choose how many months the export should cover, based on the given month in the first argument. For example, if you have written `2013-01-01` as a first argument and `18` as the number of months that you require for the export, the exported data would span the period between the first of January 2013 and the 31st of June 2014.
 
-** Please note that the parameters should be passed in either enclosed within apostrophes '', or they should not be enclosed within any other characters such as backticks or quotes in order for the script to work correctly.
+** Please note that the parameters should be passed in either enclosed within apostrophes '', or they should not be enclosed within any other characters such as backticks or quotes in order for the script to work correctly. **
 
 # Notes and Assumptions
 
